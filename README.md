@@ -125,7 +125,7 @@ Include screenshots or recordings of the application's functionality to demonstr
 
 
 
-
+Keep docker-compose.yml file in parent directory of "Techdome-frontend" & "Techdome-backend"
 docker-compose.yml
 
 ```bash
