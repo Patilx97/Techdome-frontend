@@ -174,7 +174,7 @@ volumes:
 
 
 
-
+## Here is the attached screenshot of the homepage:
 ![Here is the attached screenshot of the homepage](https://github.com/stark303test/Techdome-frontend/raw/master/Screenshot%202024-06-20%20231411.jpg)
 
 
