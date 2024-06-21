@@ -173,9 +173,10 @@ volumes:
 
 
 
-Here is the attached screenshot of the homepage:
 
 
+
+![Here is the attached screenshot of the homepage:](https://github.com/stark303test/DevOps/blob/master/Docker/Run%20WordPress%20%26%20MySql%20Docker%20container%20in%20an%20AWS%20Ubuntu%20instance/images/initial.jpg)
 
 
 
