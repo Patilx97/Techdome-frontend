@@ -18,5 +18,5 @@ COPY . .
 # Exposing port
 EXPOSE 3000
 
-# To tun the app
+# To run the app
 CMD ["npm", "start"]
