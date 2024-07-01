@@ -3,7 +3,7 @@
 # Lightweight Node.js image 
 FROM node:14-alpine
 
-# Set the working directory to /app
+# Set the working directory to /NodeApp
 WORKDIR /NodeApp
 
 # Copy package.json and package-lock.json to the working directory
