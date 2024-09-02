@@ -1,25 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Login from './pages/login/Login'
 import Signup from './pages/signup/Signup'
 import Blog from './pages/blog/Blog'
 import Form from './pages/form/Form'
-import { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
 import { loadUser } from './actions/userAction'
 
 const App = () => {
-
   const dispatch = useDispatch();
 
   useEffect(() => {
-    // Your code here
-    dispatch(/* some action */);
-}, [dispatch]); // Ensure 'dispatch' is included in the dependency array
-
-//  useEffect(() => {
-//    dispatch(loadUser());
-//  }, []);
+    dispatch(loadUser());
+  }, [dispatch]); // Include dispatch in the dependency array
 
   return (
     <>
