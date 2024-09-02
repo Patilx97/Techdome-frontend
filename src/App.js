@@ -13,8 +13,13 @@ const App = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(loadUser());
-  }, []);
+    // Your code here
+    dispatch(/* some action */);
+}, [dispatch]); // Ensure 'dispatch' is included in the dependency array
+
+//  useEffect(() => {
+//    dispatch(loadUser());
+//  }, []);
 
   return (
     <>
